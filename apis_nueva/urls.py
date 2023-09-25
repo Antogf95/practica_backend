@@ -19,4 +19,6 @@ from django.urls import path
 from pruebaclase1 import views
 
 
-urlpatterns = [path("admin/", admin.site.urls), path("", views.usuarios)]
+urlpatterns = [path("admin/", admin.site.urls),
+               path("", views.usuarios),
+               path("contact/",views.contact)]
